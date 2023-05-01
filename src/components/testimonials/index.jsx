@@ -52,7 +52,6 @@ const Testimonials = () => {
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        // autoHeight={false}
       >
         {data.map(({ avatar, name, review }, index) => {
           return (
